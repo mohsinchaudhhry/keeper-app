@@ -1,12 +1,12 @@
+import React from "react";
+
 function Note() {
   return (
     <div className="note">
-      <h1>Delegation</h1>
-      <p>
-        Q. How many programmers does it take to screw in a light bulb?
-        <br />
-        A. None – It’s a hardware problem.
-      </p>
+      <h1>This is the note title</h1>
+      <p>This is the note content</p>
     </div>
   );
 }
+
+export default Note;
